@@ -27,21 +27,7 @@ document.addEventListener('DOMContentLoaded', function(){
      diminuiFonteBotao.addEventListener('click', function(){
          tamanhoAtualFonte -= 0.2;
          document.body.style.fontSize = `${tamanhoAtualFonte}rem`
- 
-     })
- 
-     alternaContraste.addEventListener('click', function(){
-         document.body.classList.toggle('alto-contraste')
-     })
- 
- 
- })
- 
- ScrollReveal().reveal('#inicio', { delay: 500 });
- ScrollReveal().reveal('#tropicalia', { delay: 500 });
- ScrollReveal().reveal('#galeria', { delay: 500 });
- ScrollReveal().reveal('#contato', { delay: 500 });
-   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
@@ -243,3 +229,16 @@ h2 {
 .alto-contraste .fundo-galeria {
     background: none;
 }
+     })
+ 
+     alternaContraste.addEventListener('click', function(){
+         document.body.classList.toggle('alto-contraste')
+     })
+ 
+ 
+ })
+ 
+ ScrollReveal().reveal('#inicio', { delay: 500 });
+ ScrollReveal().reveal('#tropicalia', { delay: 500 });
+ ScrollReveal().reveal('#galeria', { delay: 500 });
+ ScrollReveal().reveal('#contato', { delay: 500 });
